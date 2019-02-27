@@ -10,6 +10,8 @@ class Kid
       @name = name
     end
 
+    @@FancyDance
+
     extend FancyDance::ClassMethods
     include FancyDance::InstanceMethods
 end
