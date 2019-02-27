@@ -1,6 +1,6 @@
 require_relative './class_methods_module.rb'
 require_relative './dance_module.rb'
-
+@@FancyDance
 
 class Dancer
   include Dance
